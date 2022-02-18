@@ -1,3 +1,8 @@
+html{
+    background-color: #e9edee;
+    /* background-color: black; */
+    margin: -25px;
+}
 h1{
     color: white;
     background-color: white;
