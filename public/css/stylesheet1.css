@@ -1,7 +1,11 @@
 html {
-    background-color: #e9edee;
-    /* background-color: black; */
+    background-color: white;
+   
     margin: -8px;
+}
+body{
+    background-color: #e9edee;
+
 }
 
 #cover {
@@ -13,11 +17,19 @@ html {
     font-family: sans-serif;
     color: #eb5600;
     margin: 0px;
+}
 
+#logo {
+    display: block;
+    margin-left: 350px;
+    margin-right: auto;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 200px;
 
 }
 
-/* h1 {
+h1 {
     color: white;
     background-color: white;
     text-align: center;
@@ -25,7 +37,7 @@ html {
     padding-bottom: 3%;
     font-family: sans-serif;
     color: #eb5600;
-} */
+}
 
 .left {
     width: 20%;
@@ -58,7 +70,8 @@ html {
     text-decoration: none;
     border-bottom: 1px solid rgb(0, 0, 0);
 }
-#Signout{
+
+#Signout {
     float: right;
     background-color: rgb(255, 92, 92);
     width: 100px;
@@ -66,4 +79,10 @@ html {
     margin-left: 480px;
     font-size: 20px;
     margin-bottom: 20px;
+}
+footer{
+    font-family: Arial;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 100px;
 }
