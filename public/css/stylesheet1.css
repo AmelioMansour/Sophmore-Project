@@ -1,9 +1,10 @@
-html{
+html {
     background-color: #e9edee;
     /* background-color: black; */
-    margin: -25px;
+    margin: -8px;
 }
-h1{
+
+#cover {
     color: white;
     background-color: white;
     text-align: center;
@@ -11,4 +12,58 @@ h1{
     padding-bottom: 3%;
     font-family: sans-serif;
     color: #eb5600;
+    margin: 0px;
+
+
+}
+
+/* h1 {
+    color: white;
+    background-color: white;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+    color: #eb5600;
+} */
+
+.left {
+    width: 20%;
+    float: left;
+    margin-top: 100px;
+    background-color: #81b46c;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.nav {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+    margin: 1px;
+
+
+
+}
+
+.nav li a {
+    font-family: Arial;
+    font-weight: bold;
+    display: block;
+    line-height: 3em;
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+#Signout{
+    float: right;
+    background-color: rgb(255, 92, 92);
+    width: 100px;
+    height: 40px;
+    margin-left: 480px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }

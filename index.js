@@ -27,6 +27,9 @@ app.get("/views/index.ejs", (req, res) => {
 app.get("/views/html/about.ejs", (req, res) => {
     res.render("./html/about.ejs");
 });
+app.get("/views/html/Schedule.ejs", (req, res) => {
+    res.render("./html/Schedule.ejs");
+});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
