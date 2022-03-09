@@ -94,3 +94,6 @@ footer{
     background-color: rgb(196, 196, 196);
     color: #eb5600;
 }
+textarea{
+    resize: none;
+}
