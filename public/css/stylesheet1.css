@@ -89,6 +89,8 @@ footer{
 }
 #loginbox {
     float: right;
+    width: 20%;
+    height: 60%;
     margin-right: 25%;
     padding: 20px;
     background-color: rgb(196, 196, 196);
@@ -96,4 +98,11 @@ footer{
 }
 textarea{
     resize: none;
+}
+.buttons{
+    background-color:yellow;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+  
 }
