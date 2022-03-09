@@ -21,11 +21,12 @@ body{
 
 #logo {
     display: block;
-    margin-left: 350px;
-    margin-right: auto;
-    justify-content: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: left;
     border-style: solid;
     border-radius: 200px;
+    width: 500px;
 
 }
 
@@ -85,4 +86,11 @@ footer{
     background-color: white;
     font-size: 20px;
     margin-top: 100px;
+}
+#loginbox {
+    float: right;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: rgb(196, 196, 196);
+    color: #eb5600;
 }
