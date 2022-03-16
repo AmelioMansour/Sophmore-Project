@@ -9,17 +9,34 @@
                 border-collapse: collapse;
                 background: white;
                 color: black;
+                table-layout: fixed;
+                /* width: 1000px;
+                height: 1000px; */
+               
         }
         th, td { 
                 font-weight: bold;
+
         }
-        td {
-                max-width: 100px;
-                max-height: 100px;
-                min-width: 100px;
-                min-height: 100px;
-                word-wrap: break-word;
+        td{
+            border: 2px;
+            border-style: solid;
         }
+        td,td>div,p {
+            /* border: 2px;
+            border-style: solid; */
+            margin: 0px;
+            padding: 10px;
+            height:80px; 
+            width: 80px;
+            overflow:hidden;
+               
+                word-wrap:break-word
+                overflow: hidden;   
+        }
+        
+    
+        
     </style>
 </head>
 <header>
@@ -85,12 +102,12 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>1<p>Reminder: Drop child off at 10:30</p></td>
-                <td>2<p></p></td>
+                <td>1<p> Reminder: Drop child off at 10:30</p></td>
+                <td>2<p>Reminder: Drop child off at 10:30</p> </td>
             </tr>
             <tr></tr>
             <tr>
-                <td>3<p></p></td>
+                <td>3<div></div></td>
                 <td>4<p></p></td>
                 <td>5<p></p></td>
                 <td>6<p></p></td>
