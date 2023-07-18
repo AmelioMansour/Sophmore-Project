@@ -1,0 +1,225 @@
+html {
+    background-color: white;
+    /* Let amelio know if you want to change font style */
+    font-family: Arial;
+    margin: -8px;
+}
+
+body {
+    background-color: #e9edee;
+
+}
+
+#cover {
+    color: white;
+    background-color: white;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+    color: #eb5600;
+    margin: 0px;
+}
+
+#logo {
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 20px;
+    justify-content: left;
+    border-style: solid;
+    border-radius: 200px;
+    width: 35%;
+
+
+}
+
+h1 {
+    color: white;
+    background-color: white;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+    color: #eb5600;
+}
+
+/* About logo */
+#aboutlogo {
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 20px;
+    justify-content: left;
+    border-style: solid;
+    
+    width: 35%;
+
+}
+#aboutdiv{
+    z-index: 9;
+    padding: 700px;
+    background-color: rgba(255, 0, 0, 0,.03);
+    /* display: block;
+    width: 1000px;
+    height: 800px;
+    opacity: 30%;
+    margin-left: 30%;
+    border: 5px solid rgb(0, 0, 0); */
+    background-image: url('../../public/img/istockphoto-1142670098-612x612.jpg');
+}
+#aboutp{
+    font-size: 25px;
+    text-align: left;
+    word-wrap: normal;
+    margin-top: -600px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin-right: 100px;
+    /* z-index: 10; */
+    color: black;
+    
+    
+}
+
+/* Nav bar stylings */
+.left {
+    position: relative;
+    z-index: 999;
+    width: 20%;
+    float: left;
+    margin-top: 100px;
+    background-color: #81b46c;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.nav {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+    margin: 1px;
+
+
+
+}
+
+.nav li a {
+    font-family: Arial;
+    font-weight: bold;
+    display: block;
+    line-height: 3em;
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* reservebar */
+.reservebar {
+    width: 20%;
+    /* float: inline-end; */
+    /* margin: 0px; */
+    margin-top: 470px;
+    display: inline-block;
+    margin-left: -20%;
+    list-style: none;
+    background-color: #81b46c;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.reservebar li {
+
+    font-family: Arial;
+    font-weight: bold;
+    /* display: block; */
+    line-height: 3em;
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.reservetimeinputs {
+    font-family: Arial;
+}
+
+/* Bio page/Edit bio */
+#printbioinfo {
+    text-align: center;
+}
+
+#printbioinfo h2 {
+    font-size: 30px;
+    color: rgb(106, 173, 106);
+    font-weight: bolder;
+}
+
+#printbioinfo a {
+    margin: auto;
+
+}
+#printbioinfo label{
+    border-bottom: 3px solid #eb5600;
+    font-size: 20px;
+}
+
+#printbioinfo p {
+    font-family: Arial;
+    margin: auto;
+    width: 30%;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 5px solid #eb5600;
+    ;
+}
+
+#profilepic {
+    display: block;
+    margin-left: 43%;
+    border: 4px solid #eb5600;
+    width: 15%;
+    border-radius: 60px;
+    aspect-ratio: 2 / 3;
+}
+
+#Signout {
+    float: right;
+    background-color: rgb(255, 92, 92);
+    width: 100px;
+    height: 40px;
+    margin-left: 480px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/*  */
+footer {
+    font-family: Arial;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+/*  */
+#loginbox {
+    float: right;
+    width: 20%;
+    height: 60%;
+    margin-right: 25%;
+    padding: 20px;
+    background-color: rgb(196, 196, 196);
+    color: #eb5600;
+}
+
+textarea {
+    resize: none;
+}
+
+/*  */
+.buttons {
+    background-color: yellow;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+
+}
